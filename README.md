@@ -98,16 +98,138 @@ Quand une fonctionnalité touche backend et frontend, la documentation associée
 
 ## Roadmap
 
-MVP découpé en 7 sprints (~14 semaines). Ce qui concerne la documentation sprint par sprint :
+# Sprint 0 — Cadrage & Setup
 
-| Sprint | Objectif | Documentation |
-|---|---|---|
-| S0 | Cadrage & Setup | Spécifications fonctionnelles détaillées, arborescence du dépôt, début du glossaire |
-| S1 | Connexion & Comptes | Fiche "Comment se connecter", compte rendu de fin de sprint |
-| S2 | Création d'exercice | Fiche "Créer un exercice" |
-| S3 | Éditeur & exécution | Documentation du fonctionnement de l'éditeur, journal des décisions techniques |
-| S4 | Session d'évaluation | Fiches "Lancer une évaluation" et "Passer une évaluation" |
-| S5 | Correction & résultats | Fiches "Consulter les résultats", "Ajuster une note", "Exporter" |
-| S6 | Stabilisation & démo | Manuel utilisateur complet, documentation technique complète, rapport de pentest final, compte rendu final du MVP |
+**Durée :** 2 semaines  
+**Objectif :** préparer l'environnement technique, documentaire et organisationnel avant le développement des fonctionnalités du produit.
 
-Après validation du MVP par un premier client, le projet passe à sa phase Avancée (banque d'exercices réutilisables, détection de similarité de code, mode examen surveillé, validation par IA, mode entraînement libre, statistiques pédagogiques) — dont le plan sera documenté ici.
+---
+
+## 1. Christ-Phanuel — Product Owner / Tech Lead
+
+- [ ] Choisir les technologies du projet :
+    - Backend
+    - Frontend
+    - Base de données
+    - Exécution sécurisée du code
+- [ ] Rédiger `docs/technique/decisions.md`
+- [ ] Créer les 3 repositories :
+    - `saas-evaluation-backend`
+    - `saas-evaluation-frontend`
+    - `saas-evaluation-docs`
+- [ ] Configurer la protection des branches `main` et `develop`
+- [ ] Ajouter les membres de l'équipe comme collaborateurs
+- [ ] Créer les README des repositories
+- [ ] Découper le cahier des charges en tickets
+- [ ] Attribuer les tickets aux membres de l'équipe
+- [ ] Définir le sprint associé à chaque ticket
+- [ ] Organiser et animer le kickoff du projet
+
+---
+
+## 2. Frean — Documentation
+
+- [ ] Rédiger les spécifications fonctionnelles
+- [ ] Préparer l'arborescence de la documentation
+- [ ] Commencer le glossaire du projet
+
+---
+
+## 3. Rabi — QA
+
+- [ ] Rédiger la stratégie de test
+- [ ] Préparer les premiers scénarios utilisateurs
+
+---
+
+## 4. Moussa Mohamed — QA
+
+- [ ] Rédiger les scénarios de cas limites
+- [ ] Préparer le template de rapport de bug
+
+---
+
+## 5. Kpassokro Bryan — UI/UX
+
+- [ ] Réaliser les wireframes des écrans MVP
+- [ ] Poser les bases du design system
+
+---
+
+## 6. Koffi Landry — BDD / API / Documentation technique
+
+- [ ] Dessiner le schéma initial de la base de données
+- [ ] Définir les conventions de nommage
+
+---
+
+## 7. Goh Mema — Backend
+
+- [ ] Initialiser le projet backend
+- [ ] Mettre en place la CI
+- [ ] Préparer l'endpoint `GET /health`
+
+---
+
+## 8. Akré Ange David — Frontend
+
+- [ ] Initialiser le projet frontend
+- [ ] Intégrer le design system
+- [ ] Créer la page de test de communication frontend ↔ backend
+
+---
+
+## 9. Gapka Esaïe — Frontend
+
+- [ ] Implémenter les composants UI réutilisables
+- [ ] Créer la galerie `/dev/components`
+
+---
+
+## 10. Koffi Auphocey — Sécurité / Authentification
+
+- [ ] Documenter le modèle d'authentification
+- [ ] Définir les rôles et permissions
+
+---
+
+## 11. Bakayoko Muhammed — Pentest / Sécurité
+
+- [ ] Rédiger le plan de sécurité
+
+---
+
+## 12. Douzan Bi Emmanuel — Développeur Junior
+
+- [ ] Installer l'environnement de développement
+- [ ] Réaliser une première Pull Request
+
+---
+
+## 13. Kassem Dehou — Développeur Junior
+
+- [ ] Installer l'environnement de développement
+- [ ] Préparer le script de démarrage
+
+---
+
+# Livrables attendus à la fin du Sprint 0
+
+- [ ] Stack technique décidée et documentée
+- [ ] 3 repositories GitHub opérationnels
+- [ ] Branches `main` et `develop` protégées
+- [ ] Équipe ajoutée aux repositories
+- [ ] Documentation initiale en place
+- [ ] Schéma initial de la BDD disponible
+- [ ] Wireframes MVP disponibles
+- [ ] Design system initial disponible
+- [ ] Backend initialisé
+- [ ] Frontend initialisé
+- [ ] CI configurée
+- [ ] Stratégie de test définie
+- [ ] Modèle d'authentification documenté
+- [ ] Plan de sécurité défini
+- [ ] Environnements de développement fonctionnels
+- [ ] Première Pull Request réalisée
+- [ ] Cahier des charges découpé en tickets
+- [ ] Kickoff réalisé
